@@ -1,10 +1,10 @@
 module tutorial_led_blink 
-  ( //creditos para o NANDLAND
-   input i_clock,
-   input i_enable,
-   input i_switch_1,
-   input i_switch_2,
-   output o_led_drive
+  ( //Led Blink do Nandland para testar na aplicação da light gun
+   input i_clock, //conectar no pin_m9
+   input i_enable, //conectar na ight gun N16
+   input i_switch_1, // CONECTAR NO SW0 PIN_U13
+   input i_switch_2, // CONECTAR NO SW1 PIN_V13
+   output o_led_drive // CONECTAR NO LEDR0 PIN_AA2
    );
     
   parameter c_CNT_100HZ = 250;
