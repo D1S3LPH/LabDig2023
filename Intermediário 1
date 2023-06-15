@@ -1,0 +1,5 @@
+OBJETIVO
+Esta parte do trabalho tem por objetivo realizar o este do circuito de detecção de luz da light gun, e capacidade da FPGA em distinguir os sinais claro e escuro. Procedimento que vai ser a base da geração de dados de entrada para a FPGA, que vai contar os pontos quando acertar os dados.
+
+ANDAMENTO
+O primeiro passo foi implementar a detecção do quadrado branco, que será o alvo. Nesse sentido, utilizou-se um foto-resistor, que tem sua impedância reduzida ao detectar luz. Além disso, foram supridas as necessidades de componentes para o circuito da arma.
